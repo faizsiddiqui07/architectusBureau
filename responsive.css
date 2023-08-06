@@ -1,0 +1,44 @@
+@media (min-width: 1400px){
+    .container{
+        max-width: 1430px;
+    }
+}
+@media (max-width: 991px){
+    .section-image,.section-card{
+        height: 290px;
+    }
+    .header-banner .navbar-slide.active{
+        left: 30%;
+        width: 70vw;
+    }
+}
+@media (max-width: 768px){
+    .header-banner .swiper .banner-content{
+        right: 0;
+        bottom: 80px;
+    }
+    .scroll-container {
+        bottom: 0px;
+        right: 190px;
+        padding: 20px 0;
+      }
+      .header-banner .navbar-slide-right.active{
+        left: 0%;
+        width: 100vw;
+    }
+    .header-banner .navbar-slide-left.active{
+        right: 0%;
+        width: 0vw;
+    }
+}
+@media (max-width: 577px){
+    .scroll-container {
+        right: 0px;
+      }
+      .section-links ul li{
+        margin: 15px 0;
+    }
+    .copyrights p{
+        font-size: 12px;
+    }
+}

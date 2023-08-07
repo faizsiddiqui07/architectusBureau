@@ -263,6 +263,17 @@ button:hover{
     background-color: var(--dark);
   }
 
+  
+.slider-section .swiper-button-prev{
+    left: 80%;
+}
+.slider-section .section-slider-button{
+    color: var(--light-color);
+    top: 12px;
+}
+.slider-section .section-slider-button::after{
+    font-size: 20px;
+}
 
 
 

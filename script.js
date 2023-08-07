@@ -9,6 +9,25 @@ var swiper = new Swiper(".mySwiper", {
     },
   });
 
+
+  var swiper = new Swiper(".my-section-slider", {
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    loop: true,
+    breakpoints: {
+        '576': {
+            slidesPerView: 2,
+            spaceBetween: 8,
+    },
+    '320': {
+        slidesPerView: 1,
+        spaceBetween: 8,
+}
+}
+});
+
   const menubtn = document.querySelector(".menu-btn");
   const menubtn2 = document.querySelector(".menu-btn2");
   const navbarslideright = document.querySelector(".navbar-slide-right");

@@ -24,6 +24,7 @@
     .header-banner .swiper .banner-content {
         right: 0;
         bottom: 80px;
+        left: 0;
     }
 
     .scroll-container {

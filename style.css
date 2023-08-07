@@ -150,6 +150,19 @@ button:hover{
     justify-content: center;
     align-items: center;
 }
+.header-banner .navbar-slide-right .navbar-nav a{
+    color: var(--dark);
+    font-size: 22px;
+    font-weight: 600;
+    opacity: 0.5;
+}
+.header-banner .navbar-slide-right .navbar-nav a:hover{
+    opacity: 1;
+}
+.header-banner .navbar-slide-right .navbar-nav ul li a{
+    opacity: 1;
+    margin: 0 30px;
+}
 .header-banner .navbar-slide-right.active .navbar-slide-icon{
     display: none;
     color: var(--bg-dark);

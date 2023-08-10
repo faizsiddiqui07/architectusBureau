@@ -37,7 +37,7 @@ button:hover{
 .header-banner{
     position: relative;
     width: 100%;
-    min-height: 100vh; 
+    /* min-height: 100vh;  */
 }
 .header-banner:before{
     z-index: 0;
@@ -56,6 +56,24 @@ button:hover{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+.header-scrolled{
+    display: none;
+    /* transition: all 0.3s ease; */
+}
+.header-fixed{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+}
+.search-fixed{
+    position: sticky;
+    top: 10.5%;
+    left: 0;
+    right: 0;
+    background-color: #fff;
 }
 .header-banner .swiper{
     width: 100%;
@@ -258,6 +276,7 @@ button:hover{
     position: sticky;
     cursor: pointer;
     font-size: 20px;
+    font-weight: 600;
   }
   .copyrights{
     background-color: var(--dark);

@@ -42,9 +42,21 @@
         right: 0%;
         width: 0vw;
     }
+    .select-menu .select-btn span{
+        font-size: 13px;
+    }
+    .select-btn i{
+        font-size: 17px;
+    }
+    .search-section .search-box input{
+        font-size: 13px;
+    }
 }
 
 @media (max-width: 577px) {
+    .search-fixed{
+        top: 11.1%;
+    }
     .scroll-container {
         right: 0px;
     }

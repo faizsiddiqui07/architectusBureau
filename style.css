@@ -295,5 +295,21 @@ button:hover{
 }
 
 
-
-  
+.card{
+    position: unset;
+    z-index: 9;
+    margin: 15px 0;
+    background-color: #f5f5f5;
+}
+.card img{
+    object-fit: cover;
+}
+.card .card-body p{
+    margin-bottom: 10px;
+}
+.card .card-body h5{
+    font-weight: 400;
+}
+.card .card-body p,h5{
+    color: var(--dark);
+}

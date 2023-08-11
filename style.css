@@ -67,6 +67,7 @@ button:hover{
     left: 0;
     right: 0;
     background-color: #fff;
+    z-index: 9999;
 }
 .search-fixed{
     position: sticky;

@@ -4,7 +4,7 @@ body{
 
 .select-menu{
     width: 100%;
-    /* height: 0; */
+    height: 0;
 }
 .select-menu .select-btn{
     display: flex;
@@ -68,4 +68,44 @@ body{
     color: #333;
     padding: 8px 20px;
     border-radius: 50px;
+}
+.title-section .title a{
+    color: #999;
+}
+.title-section .title span{
+    margin: 0 5px;
+    pointer-events: none;
+    color: #999;
+}
+.title-section .title h4{
+    font-size: 20px;
+    font-weight: 400;
+    pointer-events: none;
+}
+
+.project-banner-image{ 
+   /* width: 100%; */
+   height: 65vh;                                                                                        
+}
+.project-banner-image .banner-main-img{
+    background: url(./img/getCroppedImage\ \(1\).jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+
+}
+.project-banner-image .project-banner-content h3{
+    width: 100%;
+    position: absolute;
+    bottom: 17%;
+    color: white;
+    pointer-events: none;
+    z-index: 1;
+}
+.project-banner-shadow{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,.35) 0%,rgba(0,0,0,.4) 30%,rgba(0,0,0,0) 65%);
 }

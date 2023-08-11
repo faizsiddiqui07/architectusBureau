@@ -58,9 +58,6 @@ body{
 .option .option-text{
     color: #333;
 }
-.search-section{
-    padding: 30px 0;
-}
 .search-section .search-box input{
     width: 100%;
     border: none;
@@ -96,10 +93,12 @@ body{
     object-fit: cover;
 
 }
-.project-banner-image .project-banner-content h3{
+.project-banner-image .project-banner-content{
     width: 100%;
+}
+.project-banner-image .project-banner-content h3{
     position: absolute;
-    bottom: 17%;
+    bottom: 20%;
     color: white;
     pointer-events: none;
     z-index: 1;

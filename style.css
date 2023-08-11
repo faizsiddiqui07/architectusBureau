@@ -71,7 +71,7 @@ button:hover{
 }
 .search-fixed{
     position: sticky;
-    top: 10.5%;
+    top: 13%;
     left: 0;
     right: 0;
     background-color: #fff;
@@ -306,11 +306,10 @@ button:hover{
     object-fit: cover;
 }
 .card .card-body p{
+    color: var(--dark);
     margin-bottom: 10px;
 }
 .card .card-body h5{
     font-weight: 400;
-}
-.card .card-body p,h5{
     color: var(--dark);
 }

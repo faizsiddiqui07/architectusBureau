@@ -45,6 +45,36 @@ var swiper = new Swiper(".my-studio-section-slider", {
 }
 }
 });
+var swiper = new Swiper(".gallery-slider", {
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    loop: true,
+    breakpoints: {
+    '320': {
+        slidesPerView: 1,
+        spaceBetween: 8,
+}
+}
+});
+var swiper = new Swiper(".more-project-section-slider", {
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    loop: true,
+    breakpoints: {
+        '576': {
+            slidesPerView: 2,
+            spaceBetween: 8,
+    },
+    '320': {
+        slidesPerView: 1,
+        spaceBetween: 8,
+}
+}
+});
 
   const menubtn = document.querySelector(".menu-btn");
   const menubtn2 = document.querySelector(".menu-btn2");

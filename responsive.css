@@ -5,6 +5,9 @@
     
 }
 @media (max-width: 1200px) {
+    .project-banner-image .project-banner-content h3{
+        bottom: 18%;
+    }
     .more-project-section .swiper-button-prev{
         left: 80%;
     }
@@ -27,6 +30,9 @@
     .header-banner .navbar-slide.active {
         left: 30%;
         width: 70vw;
+    }
+    .project-banner-image .project-banner-content h3{
+        bottom: 15%;
     }
     .more-project-section .swiper-button-prev{
         left: 85%;
@@ -70,6 +76,9 @@
     .search-section .search-box input{
         font-size: 13px;
     }
+    .project-banner-image .project-banner-content h3{
+        bottom: 15%;
+    }
     .more-project-section .swiper-button-prev{
         left: 80%;
     }
@@ -84,6 +93,9 @@
     }
     .scroll-container {
         right: 0px;
+    }
+    .project-banner-image .project-banner-content h3{
+        bottom: 12%;
     }
     .more-project-section .swiper-button-prev{
         left: 75%;

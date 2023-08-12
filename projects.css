@@ -129,10 +129,23 @@ body{
     border-bottom: 1px solid #dee2e6;
 }
 
-.gallery-slider-section .swiper-slide img{
+/* .gallery-slider-section .swiper-slide{
     width: 90%;
+} */
+.gallery-slider-section .swiper-slide img{
+    object-fit: cover;
+    width: 90%;
+}
+.lb-outerContainer{
+    width: 100% !important;
+    height: 100% !important;
+}
+.lb-outerContainer .lb-image{
+    width: 100% !important;
+    height: 720px !important;
     object-fit: cover;
 }
+
 .swiper .arrow{
     color: var(--dark);
 }

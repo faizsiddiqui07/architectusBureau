@@ -11,7 +11,7 @@ var swiper = new Swiper(".mySwiper", {
   });
 
 
-  var swiper = new Swiper(".my-project-section-slider", {
+  var swiper1 = new Swiper(".my-section-slider", {
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
@@ -28,24 +28,7 @@ var swiper = new Swiper(".mySwiper", {
 }
 }
 });
-var swiper = new Swiper(".my-studio-section-slider", {
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    loop: true,
-    breakpoints: {
-        '576': {
-            slidesPerView: 2,
-            spaceBetween: 8,
-    },
-    '320': {
-        slidesPerView: 1,
-        spaceBetween: 8,
-}
-}
-});
-var swiper = new Swiper(".gallery-slider", {
+var swiper3 = new Swiper(".gallery-slider", {
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
@@ -58,7 +41,7 @@ var swiper = new Swiper(".gallery-slider", {
 }
 }
 });
-var swiper = new Swiper(".more-project-section-slider", {
+var swiper4 = new Swiper(".more-project-section-slider", {
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",

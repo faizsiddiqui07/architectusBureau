@@ -88,6 +88,9 @@
     .header-banner .navbar{
         background-color: var(--bg-dark);
     }
+    .header-banner .navbar .header-icons i{
+        color: white;
+    }
     .search-fixed{
         top: 8.1%;
     }

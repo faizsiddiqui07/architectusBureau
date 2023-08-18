@@ -109,6 +109,9 @@
     .section-links ul li {
         margin: 15px 0;
     }
+    .social-links ul li a{
+        font-size: 15px;
+    }
 
     .copyrights p {
         font-size: 12px;

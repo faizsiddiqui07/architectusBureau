@@ -262,6 +262,7 @@ button:hover{
 .social-links ul li a{
     color: var(--light-color);
   margin: 0 20px;
+  font-size: 20px;
 }
 .scroll-container {
     position: relative;

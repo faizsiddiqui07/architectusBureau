@@ -33,6 +33,10 @@ a:hover,
 button:hover{
     transition: all 0.3s ease-in;
 }
+.container{
+    max-width: 100%;
+    padding: 0 4%;
+}
 
 .header-banner{
     position: relative;

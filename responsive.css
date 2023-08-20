@@ -1,9 +1,3 @@
-@media (min-width: 1200px) {
-    .container {
-        max-width: 1430px;
-    }
-    
-}
 @media (max-width: 1200px) {
     .project-banner-image .project-banner-content h3{
         bottom: 18%;
@@ -18,10 +12,6 @@
 
 
 @media (max-width: 991px) {
-    .container {
-        max-width: 1250px;
-    }
-
     .section-image,
     .section-card {
         height: 290px;
@@ -88,6 +78,9 @@
     .header-banner .navbar{
         background-color: var(--bg-dark);
     }
+    .header-banner .navbar a img{
+        width: 280px;
+    }
     .header-banner .navbar .header-icons i{
         color: white;
     }
@@ -117,7 +110,7 @@
         font-size: 12px;
     }
 }
-@media (max-width: 375px) {
+@media (max-width: 406px) {
     .header-banner .navbar a img{
         width: 200px;
     }

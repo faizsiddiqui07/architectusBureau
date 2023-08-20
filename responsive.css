@@ -117,3 +117,8 @@
         font-size: 12px;
     }
 }
+@media (max-width: 375px) {
+    .header-banner .navbar a img{
+        width: 200px;
+    }
+}

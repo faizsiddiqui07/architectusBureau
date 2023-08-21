@@ -159,9 +159,10 @@ button:hover{
     position: fixed;
     top: 0;
     left: 50%;
+    bottom: 0;
     z-index: 999;
     width: 50vw;
-    height: 100vh;
+    height: 100%;
     background-color: white;
     transition: all 0.3s ease;
 }
@@ -294,7 +295,7 @@ button:hover{
 }
 .slider-section .section-slider-button{
     color: var(--light-color);
-    top: 12px;
+    top: 60px;
 }
 .slider-section .section-slider-button::after{
     font-size: 20px;

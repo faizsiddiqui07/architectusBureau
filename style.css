@@ -148,9 +148,9 @@ button:hover{
     display: block;
     position: fixed;
     top: 0;
-    right: 50%;
+    right: 30%;
     z-index: 999;
-    width: 50vw;
+    width: 70vw;
     height: 100vh;
     transition: all 0.3s ease;
 }
@@ -158,10 +158,10 @@ button:hover{
     display: block;
     position: fixed;
     top: 0;
-    left: 50%;
+    left: 70%;
     bottom: 0;
     z-index: 999;
-    width: 50vw;
+    width: 30vw;
     height: 100%;
     background-color: white;
     transition: all 0.3s ease;
@@ -185,7 +185,7 @@ button:hover{
 }
 .header-banner .navbar-slide-right .navbar-nav ul li a{
     opacity: 1;
-    margin: 0 30px;
+    margin: 0 20px;
 }
 .header-banner .navbar-slide-right.active .navbar-slide-icon{
     display: none;
@@ -196,7 +196,7 @@ button:hover{
     z-index: 9999;
     position: fixed;
     top: 26px;
-    right: 4%;
+    right: 2%;
     cursor: pointer;
 }
 .section-image{

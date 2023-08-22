@@ -71,7 +71,7 @@ button:hover{
     left: 0;
     right: 0;
     background-color: #fff;
-    z-index: 9999;
+    z-index: 99;
 }
 .search-fixed{
     position: sticky;
@@ -140,6 +140,7 @@ button:hover{
 .navbar-slide-left .navbar-slide-image img{
     object-fit: cover;
     height: 100vh;
+    width: 100%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

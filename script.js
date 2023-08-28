@@ -61,21 +61,27 @@ var swiper4 = new Swiper(".more-project-section-slider", {
 
   const menubtn = document.querySelector(".menu-btn");
   const menubtn2 = document.querySelector(".menu-btn2");
+  const cutSlidebar= document.querySelector(".navbar-slide-left");
   const navbarslideright = document.querySelector(".navbar-slide-right");
   const navbarslideleft = document.querySelector(".navbar-slide-left");
   const navbarslideicon = document.querySelector(".navbar-slide-icon")
 
-  menubtn.addEventListener("click", function(){
+  menubtn.addEventListener("click", ()=>{
     menubtn.classList.toggle("active");
     navbarslideright.classList.add("active");
     navbarslideleft.classList.add("active");
     navbarslideicon.classList.add("active");
   });
-menubtn2.addEventListener("click",()=>{
+  cutSlidebar.addEventListener("click",()=>{
     navbarslideright.classList.remove("active");
     navbarslideleft.classList.remove("active");
     navbarslideicon.classList.remove("active");
-})
+});
+menubtn2.addEventListener("click",()=>{
+  navbarslideright.classList.remove("active");
+  navbarslideleft.classList.remove("active");
+  navbarslideicon.classList.remove("active");
+});
 
 let searchSection = null;
 let nav = document.querySelector(".navbar");

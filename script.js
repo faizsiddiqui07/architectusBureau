@@ -64,23 +64,27 @@ var swiper4 = new Swiper(".more-project-section-slider", {
   const cutSlidebar= document.querySelector(".navbar-slide-left");
   const navbarslideright = document.querySelector(".navbar-slide-right");
   const navbarslideleft = document.querySelector(".navbar-slide-left");
-  const navbarslideicon = document.querySelector(".navbar-slide-icon")
+  const navbarslideicon = document.querySelector(".navbar-slide-icon");
+  const body = document.querySelector("body");
 
   menubtn.addEventListener("click", ()=>{
     menubtn.classList.toggle("active");
     navbarslideright.classList.add("active");
     navbarslideleft.classList.add("active");
     navbarslideicon.classList.add("active");
+    body.classList.add("active")
   });
   cutSlidebar.addEventListener("click",()=>{
     navbarslideright.classList.remove("active");
     navbarslideleft.classList.remove("active");
     navbarslideicon.classList.remove("active");
+    body.classList.remove("active")
 });
 menubtn2.addEventListener("click",()=>{
   navbarslideright.classList.remove("active");
   navbarslideleft.classList.remove("active");
   navbarslideicon.classList.remove("active");
+  body.classList.remove("active")
 });
 
 let searchSection = null;

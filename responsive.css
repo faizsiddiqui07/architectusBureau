@@ -1,7 +1,7 @@
 @media (max-width: 1200px) {
     .header-banner .navbar-slide-left.active {
-        right: 40%;
-        width: 60vw;
+        /* right: 40%; */
+        width: 100vw;
     }
 
     .header-banner .navbar-slide-right.active {
@@ -76,7 +76,7 @@
 
     .header-banner .navbar-slide-left.active {
         right: 0%;
-        width: 0vw;
+        width: 100vw;
     }
     .header-banner .navbar-slide-right .navbar-nav ul li a {
         margin: 0 20px;

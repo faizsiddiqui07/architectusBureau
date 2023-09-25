@@ -68,7 +68,7 @@ var swiper4 = new Swiper(".more-project-section-slider", {
   const body = document.querySelector("body");
 
   menubtn.addEventListener("click", ()=>{
-    menubtn.classList.toggle("active");
+    // menubtn.classList.toggle("active");
     navbarslideright.classList.add("active");
     navbarslideleft.classList.add("active");
     navbarslideicon.classList.add("active");
